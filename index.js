@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.get("/", (request, response) => {
   response.json({
-    data: [],
+    data: ["1"],
   });
 });
 console.log("up3");
